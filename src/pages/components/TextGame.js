@@ -3,7 +3,7 @@ import './GameImage.css'
 
 const assets = require('./../../images/textGameAssets.js')
 
-const GameImage = (props) => {
+const TextGame = (props) => {
   console.log(props)
   return (
     <div style={{backgroundImage: `url(${assets[props.node.image]})`}} className="gameSection">
