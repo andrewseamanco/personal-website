@@ -1,13 +1,13 @@
 import { React, useState } from 'react'
-import {storyRoot, braceYourself, checkTheRoom} from '../gameObjects/storyNodes'
-import TextGame from './components/TextGame'
+import {storyRoot} from '../gameObjects/CatholicSchool'
+import GameComponent from './components/GameComponent'
 
 const TextGame = () => {
   const [choice, setChoice] = useState(storyRoot)
   console.log(choice)
   return (
     <div className="gameHolder">
-    <TextGame node={choice} branch={userChoice => setChoice(userChoice)} />
+    <GameComponent node={choice} branch={userChoice => setChoice(userChoice)} />
     </div>
   )
 }

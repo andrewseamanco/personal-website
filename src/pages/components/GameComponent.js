@@ -1,9 +1,9 @@
 import React from 'react'
 import './GameImage.css'
 
-const assets = require('./../../images/textGameAssets.js')
+const assets = require('./../../images/CatholicSchoolAssets.js')
 
-const TextGame = (props) => {
+const GameComponent = (props) => {
   console.log(props)
   return (
     <div style={{backgroundImage: `url(${assets[props.node.image]})`}} className="gameSection">
@@ -24,4 +24,4 @@ const TextGame = (props) => {
   )
 }
 
-export default GameImage
+export default GameComponent
