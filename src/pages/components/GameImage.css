@@ -17,7 +17,7 @@ body > #root > div {
 
 .title {
   background-color: rgba(255, 255, 255, 0.6);
-  text-align: center
+  text-align: center;
 }
 
 .gameImage {
@@ -38,4 +38,6 @@ body > #root > div {
   background-color: rgba(255, 255, 255, 0.6);
   text-align: center;
   margin-bottom: 4%;
+  display: table-cell;
+  vertical-align: middle;
 }
